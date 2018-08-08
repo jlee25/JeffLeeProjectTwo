@@ -258,6 +258,7 @@
                 </div>
             </div>
             <div class="wrapper cycle"> <!-- Cycle js max-width 900px -->
+                <h2 class="global__h2">Our Team</h2>
                 <div class="cycle__container">
                     <figure class="cycle-slideshow" data-cycle-timeout="0" data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-speed="1000" data-cycle-caption="#alt-caption"
                     data-cycle-caption-template="{{alt}}">
@@ -407,7 +408,7 @@
     <script>
         $(document).ready(function () {
                 $('.hamburger').on('click', function () {
-                    $('.menu').toggleClass('show');
+                    $('.menu').toggleClass('show', [0.5]);
                     $('.ex').show();
                 });
 
@@ -416,14 +417,13 @@
                 });
             });
 
-            $(window).resize(function () {
-                    console.log('resize called');
-                    var width = $(window).width();
-                    if (width > 600) {
-                        $('menu').removeClass('show');
-                    }
-                })
-                    .resize();
+           $(window).resize(function () {
+                var theWidth = $(window).width();
+                if (theWidth > 600) {
+                    $('.menu').removeClass('show');
+                    $('.ex').removeAttr("style");
+                }
+            });
     </script>        
 </body>
 </html>

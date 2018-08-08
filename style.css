@@ -343,6 +343,8 @@ header {
     width: 100%; }
   .menu .nav__link, .menu .nav__link--white, .menu .nav__link--normal {
     font-size: 30px; }
+  .show.menu {
+    -webkit-transition: all 5s ease-in-out; }
   .ex {
     list-style-type: none;
     color: black;
@@ -939,4 +941,8 @@ form input::placeholder {
     -ms-flex: 1 0 100%;
     flex: 1 0 100%; }
   .aboutUs .wrapper {
-    padding: 10px; } }
+    padding: 10px; }
+  .whyCorporate__experience figure {
+    display: none; }
+  .whyCorporate__people {
+    margin: 0; } }
