@@ -162,7 +162,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .wrapper {
   max-width: 1080px;
-  border: 1px solid red;
   margin: 0 auto;
   text-align: center; }
 
@@ -234,7 +233,6 @@ header {
 
 .wrapper--left {
   max-width: 1080px;
-  border: 1px solid red;
   margin: 150px auto; }
 
 .global__h2--flex {
