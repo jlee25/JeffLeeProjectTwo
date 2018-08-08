@@ -1,0 +1,29 @@
+// Colours //
+
+$primary: #0E5F88;
+$secondary: #8ECCEB;
+$tertiary: #FFFFFF;
+
+// Fonts //
+$basefont: 'Montserrat', sans-serif;
+$secondfont: 'Open Sans', sans-serif;
+
+// Font Size //
+$h2size: 30px;
+
+// Miscellaneous //
+
+$up: uppercase;
+
+@mixin aLinks($fontSize) {
+    font-size: $fontSize;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@mixin butt($borderSize) {
+    border-radius: $borderSize;
+    background-color: $primary;
+    font-size: 40px;
+}
