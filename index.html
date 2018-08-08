@@ -401,9 +401,8 @@
         </footer>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
-    <script src="http://malsup.github.io/jquery.cycle2.tile.js"></script>
-    
+    <script src="https://malsup.github.com/jquery.cycle2.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.tile.js"></script>
     <script>
         $(document).ready(function () {
                 $('.hamburger').on('click', function () {
@@ -417,13 +416,12 @@
             });
 
             $(window).resize(function () {
-                    console.log('resize called');
-                    var width = $(window).width();
-                    if (width > 600) {
-                        $('menu').removeClass('show');
+                    if ($(window).width() > 600) {
+                        $(".menu").removeClass('show');
+                        $(".ex").removeAttr('style');
                     }
-                })
-                    .resize();
+
+                });
     </script>        
 </body>
 </html>
