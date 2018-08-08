@@ -4,6 +4,8 @@
 @import "partials/header";
 @import "partials/footer";
 
+// Global Styles //
+
 .welcomeWrapper {
     text-align: center;
     padding: 50px 20px;;
@@ -44,6 +46,8 @@
     width: 80%;
 }
 
+// Why Corporate Section //
+
 .whyCorporate--nopadding {
     padding: 0;
 }
@@ -79,6 +83,7 @@
     }
 }
 
+// List of Services Section //
 
 .listofServices {
     text-align: center;
@@ -116,6 +121,8 @@
     }
 }    
 
+// About Us Section //
+
 .aboutUs {
     background-color: black;
     color: white;
@@ -142,6 +149,8 @@
         font-style: italic;
     }
 }    
+
+// Images Section with Hover //
 
 .images {
     padding: 0;
@@ -186,6 +195,8 @@
     }
 }    
 
+// Second Services Section //
+
 .servicestwo {
     width: 100%;
     &__container {
@@ -216,6 +227,8 @@
         width: 80%;
     }
 }   
+
+// Question Section //
 
 .question {
     background-color: $secondary;
@@ -252,6 +265,8 @@ form input::placeholder {
     color: black;
     opacity: 1;
 }
+
+// Crew Section //
 
 .thecrew {
     width: 100%;
@@ -293,6 +308,8 @@ form input::placeholder {
 
 /* Media Queries */
 
+// Min-width of 900 px //
+
 @media (min-width: 900px) {
     .thecrew__caption {
         position: absolute;
@@ -312,6 +329,9 @@ form input::placeholder {
     }
                 
 }
+
+// 1200px Media Query //
+
 @media (max-width: 1200px) {
     .images__container {
         width: 50%;
@@ -320,6 +340,8 @@ form input::placeholder {
         width: 100%;
     }
 }
+
+// Max-width 900px //
 
 @media (max-width: 900px) {
     section, .aboutUs, .listofServices {
@@ -408,6 +430,8 @@ form input::placeholder {
 	font-style: italic;
     }   
 }    
+
+// Max width 600px //
 
 @media (max-width: 600px) {
     .images__container {

@@ -343,8 +343,6 @@ header {
     width: 100%; }
   .menu .nav__link, .menu .nav__link--white, .menu .nav__link--normal {
     font-size: 30px; }
-  .show.menu {
-    -webkit-transition: all 5s ease-in-out; }
   .ex {
     list-style-type: none;
     color: black;

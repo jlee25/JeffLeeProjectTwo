@@ -45,6 +45,8 @@ header {
     }
 }
 
+// Toggle Class Section //
+
 .hamburger {
     position: absolute;
     margin-left: 10px;
@@ -70,6 +72,10 @@ header {
     }
 }
 
+// Media Queries Section //
+
+// Max width 900px //
+
 @media (max-width: 900px) {
     .global__h2--flex {
         flex: 1 0 100%;
@@ -82,6 +88,8 @@ header {
         }
     }
 }    
+
+// Max Width 600px //
 
 @media (max-width: 600px) {
     .hamburger, .menu {
@@ -118,10 +126,6 @@ header {
 
     .menu .nav__link {
         font-size: 30px;
-    }
-
-    .show.menu {
-        -webkit-transition: all 5s ease-in-out;
     }
     
     .ex {
